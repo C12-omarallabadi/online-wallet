@@ -1,9 +1,10 @@
 import React from 'react'
 import "./App.css";
+import Register from './components/role 1 interface/Register';
 const App = () => {
   return (
-    <div className="bg-blue-500 text-white p-4">
-    Hello, Tailwind CSS is working!
+    <div >
+  <Register></Register>
   </div>
   )
 }
